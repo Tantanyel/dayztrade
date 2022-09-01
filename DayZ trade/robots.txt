@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /registration
+Disallow: /trade
+Disallow: /createtrade
+Disallow: /profile
+Host: dayztrade.ru

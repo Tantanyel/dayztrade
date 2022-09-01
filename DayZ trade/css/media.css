@@ -1,0 +1,94 @@
+@media only screen and (min-width: 1140px) {
+    .trader:nth-child(1n+9) .infotraders {
+        border: none;
+    }
+    .trader {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 1140px) {
+    .trader:last-child .infotraders {
+        border: none;
+    }
+    .trader {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .profilehistory {
+        width: 40%;
+    }
+    .profileinfo {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 835px) and (max-width: 1279px) {
+    .profilehistory {
+        width: 50%;
+        min-width: 420px;
+        margin-left: 280px;
+        margin-top: 30px;
+    }
+    .profileinfo {
+        width: 50%;
+        min-width: 420px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 835px) {
+    .profileosn {
+        margin: 0 auto;
+    }
+    .profilehistory {
+        width: 80%;
+        min-width: 420px;
+        margin-top: 30px;
+    }
+    .profileinfo {
+        width: 80%;
+        min-width: 420px;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1050px) {
+    .searchcont form {
+        width: 400px;
+    }
+    .searchcont form> span {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+    .tradeflex {
+        justify-content: center;
+    }
+    .tradeover {
+        width: 80%;
+    }
+    .tradecoment {
+        padding-left: 0px;
+        width: 80%;
+        min-width: 550px;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1290px) {
+    .dobpredl {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .finditems {
+        width: 670px;
+        margin-right: 0;
+    }
+    .otpravkatrade {
+        justify-content: center;
+    }
+}
